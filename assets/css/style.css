@@ -4,6 +4,7 @@
     padding:o;
     border:0;
     margin:0;
+    
 }
 
 body{
@@ -22,6 +23,7 @@ color: #252525;
 {
     float:left;
     font-size: 280%;
+    margin-left: 30px;
 }
 /*navigation links*/
 #menu{
@@ -51,6 +53,13 @@ letter-spacing: 4px;
     height:600px;
     width:100%;
     overflow: hidden;
+
+    position:relative;
+}
+
+/* need to specify h2 text to override default*/
+#cover-text, #cover-text h2 {
+color: #fff;
 }
 
 #hero-image{
@@ -65,8 +74,6 @@ letter-spacing: 4px;
 }
 
 
-
-
 /*creates the level of zoom for hero image*/
 @keyframes hero-image {
     from{
@@ -75,4 +82,48 @@ letter-spacing: 4px;
     to {
         transform:scale(1.1)
     }
+}
+#cover-text {
+    font-size: 130%;
+    font-family: oswald sans-serif;
+    text-transform: uppercase;
+
+    width:300px;
+    height:200px;
+
+    padding-top: 40px;
+    padding-left:10px;
+
+    background-color: rgba(241,109,107,.7);
+
+    bottom:30px;
+    right:150px;
+    position: absolute;
+
+}
+/*club ethos*/
+#club-ethos
+{
+    height:600px;
+}
+
+#left-about{
+    padding-top: 30px;
+    width:33%;
+    float:left;
+    background-color: blue;
+}
+#right-about{
+    padding-top: 30px;
+    width:33%;
+    float:right;
+    background-color: silver;
+}
+
+#center-about{
+    padding-top: 30px;
+    width:33%;
+    margin: 0 auto;
+    background-color: green;
+
 }
