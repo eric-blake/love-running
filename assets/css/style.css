@@ -65,7 +65,7 @@ color: #fff;
 #hero-image{
     height:600px;
     width:100%;
-    background: url('../images/hero-image.webp');
+    background: url('../images/hero-image.webp') no-repeat center center;
     /*animation zoom effect on loading page*/
     animation-name:hero-image;
     animation-duration: 5s;
@@ -241,7 +241,7 @@ margin:5px,0;
 
     }
 
-     /*media query*/
+     /*media query screens 1200px and down*/
 
      @media screen and (max-width:1200px) 
      {
@@ -267,12 +267,19 @@ margin:5px,0;
             float:left;
             padding:0;
         }
-        hr{
-            display: none;
-        
-      
-     }
+        hr
+        {
+            display: none
 
+     }
+     #times > div {
+        width:100%;
+        clear:both;
+        height:150px;
+        padding:0;
+
+     }
+    }
      /* for medium screens szes from 950px and down */
 
      @media screen and (max-width:950px)  
