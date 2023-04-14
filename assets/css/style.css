@@ -315,4 +315,14 @@ margin:5px,0;
             padding: 0 20px;
 
         }
+        #photos{
+            column-count: 3;
+        }
      }
+/* for small screens 800px and down */
+     @media screen and (max-width:800px) 
+      {
+        #photos{
+            column-count: 2;
+        }
+    }
