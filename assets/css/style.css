@@ -188,6 +188,7 @@ margin:5px,0;
         width:100%;
         overflow: hidden;
         background-position: center;
+        
 
         
     }
@@ -201,6 +202,7 @@ margin:5px,0;
         text-align: center;
         border:2px solid white;
         box-sizing: border-box;
+        text-transform: capitalize;
         
     }
     #times h2{
